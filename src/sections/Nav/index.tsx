@@ -29,7 +29,7 @@ const Nav = ({ theme, setTheme }: ContextValue): JSX.Element => {
                 </NavbarItem>
                ))}
             </NavbarContent>
-            <NavbarMenu>
+            <NavbarMenu className={theme.boxTheme}>
                 {menuItems.map((item) => (
                     <NavbarItem
                     key={item}
